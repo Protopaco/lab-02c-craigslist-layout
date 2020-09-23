@@ -37,12 +37,19 @@ column{
     grid-template-columns: auto;
 }
 
+.location-column{
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr 1fr;
+}
+
 .content-block{
     border: 1px solid gray;
     display: flex;
     justify-content: center;
 }
 
-
+.jobs-gig{
+    grid-template-rows: 80% 20%;
+}
 
 
